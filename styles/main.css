@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	margin: 0 auto;
+}
+.container {	
+	margin: 0 auto;
+	height: 100px;
+	max-width: 100%;
+	text-align: center;	
+}
+header {
+	margin: 0 auto;
+	width: 90%;
+	padding: 0px 10px;
+	border-bottom: 1px solid black;
+}
+ul#menu {
+	margin-left: -40px;
+}
+ul#menu li {
+	list-style-type: none;
+	display: inline;
+	margin: 0px 20px;
+}
+ul#menu li a{
+	color: grey;
+	text-decoration: none;
+}
+ul#bio {
+	list-style-type: none;
+	text-align: left;
+}
+h2#subHeading {
+	color: blue;
+}
+body {
+	font-family: "Arial Rounded MT Bold", "Arial", sans-serif;
+}
+#portrait {
+	margin-top: 20px;
+	width: 25%;
+}
+#aboutPortrait {
+	margin: 0 20%;
+	width: 60%;
+}
+p {
+	margin: 20px 10%;
+}
+#about p {
+	padding-top: 10px;
+	width: 100%;
+	text-align: left;
+	padding-bottom: 10px;
+}
+aside {
+	text-align: center;
+	width: 30%;
+	float: left;
+}
+section {
+	width: 80%;
+}
+#galleryLeft {
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+	border-right: 1px solid grey;
+	padding-bottom: 20px;
+}
+#galleryLeft img,
+#galleryRight img {
+	width: 50%;
+}
+#galleryRight {
+	width: 40%;
+	float: right;
+	margin-right: 10%;
+	border-left: 1px solid grey;
+	padding-bottom: 20px;
+}
+#galleryLeft ul, 
+#galleryRight ul {
+	list-style-type: none;
+	margin-left: -40px;
+}
+#paintingTitle {
+	font-family: "Arial Black", Arial;
+}
+
+/*** MEDIA QUERIES ***/
+
+		/** Tablets Media Queries **/
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+
+	#portrait {
+		width: 40%;
+	}
+	section, aside {
+		width: 100%;
+	}
+	#about p {
+		margin: 0 auto;
+		width: 80%;
+	}
+	ul#bio {
+		margin-left: -40px;
+		text-align: center;
+	}
+	#aboutPortrait {
+		width: 30%;
+	}
+	#galleryLeft {
+	width: 45%;	
+	margin-left: 5%;
+	}
+	#galleryRight {
+	width: 45%;
+	margin-right: 5%;
+	}
+	#galleryLeft img {
+		width: 75%;
+	}
+	#galleryRight img {
+		width: 75%;
+	}
+
+}
+
+		/** Smartphone Media Queries **/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+	body {
+		font-family: "Arial", sans-serif
+	}
+	#portrait {
+		width: 50%;
+	}
+	section, aside {
+		width: 100%;
+	}
+	#about p {
+		margin: 0 auto;
+		width: 80%;
+	}
+	ul#bio {
+		margin-left: -40px;
+		text-align: center;
+	}
+	#galleryLeft {
+		width: 100%;
+		padding: 0 10px 5%;
+		margin-left: 0;
+	} 
+	#galleryLeft img {
+		width: 80%;
+	}
+	#galleryRight {
+		width: 100%;
+		padding: 0 10px 5%;
+		margin-right: 0;
+	}
+	#galleryRight img {
+		width: 80%;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
